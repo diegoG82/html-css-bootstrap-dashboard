@@ -46,6 +46,9 @@ li{
 
 }
 
+
+
+
 /* MAIN CONTENT */
 
 .main-content{
@@ -56,6 +59,22 @@ li{
 
 
 /* MAIN HEADER */
+
+.main-header{
+    background-color: white;
+    height:70px;
+}
+
+.logo-mobile{
+    width:60px
+}
+
+
+.search-bar{
+  width: 100%;
+ 
+}
+
 
 .jumbotron{
     background-color: rgb(27, 114, 232);
