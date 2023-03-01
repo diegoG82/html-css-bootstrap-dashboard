@@ -10,29 +10,80 @@ img{
     background-color:rgb(8, 60, 112);
 
     /* debug */
-    height:70px;
-   min-width: 70px;
-    border:1px solid green; 
+  min-width: 70px;
+   
+}
+
+.ms_row{
+    margin: 0 auto  ;
+}
+
+li{
+    list-style: none;
 }
 
 
 /* MAIN */
 
+
+/* SIDEBAR */
+
 .ms_siderbar{
     height:calc(100vh - 70px );
     width:80px;
+    background-image: url(../img/sidebar-bg.png);
+        background-color:rgb(9, 33, 56); 
+        color:white;
+        font-size: 0.8rem;
+    }
 
-    /* debug */
-    background-color: rgb(143, 61, 64);
-    border: 1px solid black;
+
+@media screen and (min-width: 992px){
+
+    .ms_siderbar{
+        width:140px;
+    }
+
 }
 
+/* MAIN CONTENT */
 
 .main-content{
     width: calc(100% - 80px);
     height: calc(100vh - 70px);
 
-    /* debug */
-    background-color: greenyellow;
-    border:1px solid black;
+}
+
+
+/* MAIN HEADER */
+
+.jumbotron{
+    background-color: rgb(27, 114, 232);
+    height:150px;
+    width:100%;
+}
+
+/* LEFT PART */
+
+.next-classes{
+    background-color: antiquewhite;
+    min-height: 150px;
+}
+
+.faq{
+    background-color: blueviolet;
+    min-height: 150px;
+}
+
+
+/* RIGHT PART */
+
+.todo{
+    background-color: mediumspringgreen;
+    min-height:150px;
+}
+
+.data{
+    background-color: teal;
+    min-height:150px;
 }
