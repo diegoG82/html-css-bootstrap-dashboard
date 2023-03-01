@@ -1,0 +1,38 @@
+
+/* RESET */
+img{
+    max-width: 100%;
+}
+
+/* HEADER */
+
+.main-header{
+    background-color:rgb(8, 60, 112);
+
+    /* debug */
+    height:70px;
+   min-width: 70px;
+    border:1px solid green; 
+}
+
+
+/* MAIN */
+
+.ms_siderbar{
+    height:calc(100vh - 70px );
+    width:80px;
+
+    /* debug */
+    background-color: rgb(143, 61, 64);
+    border: 1px solid black;
+}
+
+
+.main-content{
+    width: calc(100% - 80px);
+    height: calc(100vh - 70px);
+
+    /* debug */
+    background-color: greenyellow;
+    border:1px solid black;
+}
