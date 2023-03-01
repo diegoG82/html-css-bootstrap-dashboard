@@ -76,11 +76,22 @@ li{
 }
 
 
+/* JUMBOTRON */
+
 .jumbotron{
     background-color: rgb(27, 114, 232);
-    height:150px;
-    width:100%;
+    color: white;
 }
+
+.ms_badge{
+    font-size: 0.6rem;
+    background-color: rgb(22, 91, 186);
+    border-radius: 25px;
+    padding:0.2rem;
+    margin-top: 0.3rem;
+}
+
+
 
 /* LEFT PART */
 
