@@ -40,7 +40,7 @@ tbody{
 
 .ms_sidebar{
     height:calc(100vh - 70px );
-    width:3.5rem;
+    width:80px;
     background-image: url(../img/sidebar-bg.png);
         background-color:rgb(9, 33, 56); 
     }
