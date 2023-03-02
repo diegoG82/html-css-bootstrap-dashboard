@@ -38,22 +38,19 @@ tbody{
 
 /* SIDEBAR */
 
-.ms_siderbar{
+.ms_sidebar{
     height:calc(100vh - 70px );
-    width:80px;
+    width:3.5rem;
     background-image: url(../img/sidebar-bg.png);
         background-color:rgb(9, 33, 56); 
-        color:white;
-        font-size: 0.8rem;
     }
 
 
 @media screen and (min-width: 992px){
 
-    .ms_siderbar{
+    .ms_sidebar{
         width:140px;
     }
-
 }
 
 /* MAIN CONTENT */
@@ -74,15 +71,11 @@ tbody{
     width:60px
 }
 
-
-
-
 /* SIDEBAR */
 
 .side_span{
     padding: 0,5rem;
 }
-
 
 /* JUMBOTRON */
 
@@ -108,7 +101,6 @@ tbody{
 
 /* NEXT CLASSES */
 
-
 .class-avatar-img{
     width:1.2rem;
 }
@@ -122,8 +114,6 @@ tbody{
     padding:0.2rem 0.4rem;
     scale: 0.9;
 }
-
-
 
 /* FAQ SECTION */
 
