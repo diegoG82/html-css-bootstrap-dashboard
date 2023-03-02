@@ -120,6 +120,25 @@ tbody{
 }
 
 
+/* FAQ SECTION */
+
+.accordion-item{
+    border-left:none;
+    border-right:none;
+    border-top:none;
+}
+
+.accordion_three{
+    border:none;
+}
+
+.accordion-button:focus{
+  box-shadow: none;
+}
+
+
+
+
 .faq{
     
     min-height:150px;
