@@ -13,10 +13,10 @@ body{
 
 .main-header{
     background-color:rgb(8, 60, 112);
+}
 
-    /* debug */
-  min-width: 70px;
-   
+.fa-bell{
+    color:rgb(255, 143, 0)
 }
 
 .ms_row{
@@ -61,9 +61,7 @@ tbody{
 .main-content{
     width: calc(100% - 80px);
     height: calc(100vh - 70px);
-
 }
-
 
 /* MAIN HEADER */
 
@@ -77,9 +75,12 @@ tbody{
 }
 
 
-.search-bar{
-  width: 100%;
- 
+
+
+/* SIDEBAR */
+
+.side_span{
+    padding: 0,5rem;
 }
 
 
@@ -98,11 +99,14 @@ tbody{
     margin-top: 0.3rem;
 }
 
-
+.fa-square-plus{
+    scale:1.5;
+    margin-left:0.5rem;
+}
 
 /* LEFT PART */
 
-/* TABELLA NEXT CLASSES */
+/* NEXT CLASSES */
 
 
 .class-avatar-img{
@@ -118,6 +122,7 @@ tbody{
     padding:0.2rem 0.4rem;
     scale: 0.9;
 }
+
 
 
 /* FAQ SECTION */
@@ -136,24 +141,13 @@ tbody{
   box-shadow: none;
 }
 
-
-
-
-.faq{
-    
-    min-height:150px;
+.accordion-button{
+    padding:0.5rem 0;   
 }
 
 
 
-/* RIGHT PART */
 
-.todo{
-    
-        min-height:150px;
-}
 
-.data{
-       
-    min-height:150px;
-} 
+
+

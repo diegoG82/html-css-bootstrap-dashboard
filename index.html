@@ -39,8 +39,12 @@
 
             <!-- HEADER SEARCH BAR -->
             <div class="col-8 d-flex py-3">
-                <button type="submit"><i><i class="fa-solid fa-magnifying-glass"></i></i></button>
-                <input class="search-bar" type="search" placeholder="Prova a cercare: lezioni di Laravel">
+                
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control bg-body-secondary" placeholder="Prova a cercare: Lezioni di Laravel    " aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+
             </div>
             
             <!--  HEADER ICONS -->
@@ -70,19 +74,19 @@
        <ul class="flex-grow-1 pt-3">
 
             <li><i class="fa-solid fa-house"></i>
-            <span class="d-none d-lg-inline">Home</span></li>
+            <span class="d-none d-lg-inline px-1">Home</span></li>
 
             <li><i class="fa-solid fa-chart-simple"></i>
-            <span class=" d-none d-lg-inline">Stats</span></li>
+            <span class=" d-none d-lg-inline px-1">Stats</span></li>
 
             <li><i class="fa-solid fa-signal"></i>
-            <span class=" d-none d-lg-inline">Signals</span></li>
+            <span class="d-none d-lg-inline px-1">Signals</span></li>
 
         </ul> 
             
         <ul>
             <li><i class="fa-solid fa-gear"></i>
-            <span class=" d-none d-lg-inline">Admin</span></li>
+            <span class="d-none d-lg-inline px-1">Admin</span></li>
         </ul>
         
     </div>
@@ -156,9 +160,9 @@
                                         <thead>
                                           <tr>
                                             <th colspan="3" scope="col">Nome</th>
-                                            <th scope="col">Data inizio</th>
-                                            <th scope="col">ROI</th>
-                                            <th scope="col">Stato</th>
+                                            <th class="d-none d-md-table-cell" scope="col">Data inizio</th>
+                                            <th class="d-none d-md-table-cell" scope="col">ROI</th>
+                                            <th class="text-center" scope="col">Stato</th>
                                             <th class="text-center" scope="col">Azioni</th> 
                                           </tr>
                                         </thead>
@@ -169,9 +173,9 @@
 
                                                 <th scope="row"><img class="class-avatar-img" src="img/class-avatar.jpg" alt=""><span class="row_title">Classe 75 </span> </th>
                                                 <td colspan="2"></td>
-                                                <td>15 Feb 2021</td>
-                                                <td>20%</td> 
-                                                <td> <span class="badge text-bg-success">Done</span>
+                                                <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td> 
+                                                <td class="text-center"> <span class="badge text-bg-success">Done</span>
                                                 </td> 
                                                 <td class="text-center"><button class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
                                                 <button class="btn btn-outline-secondary" ><i class="fa-sharp fa-solid fa-trash"></i></button></td>
@@ -183,9 +187,9 @@
 
                                                 <th scope="row"><img class="class-avatar-img" src="img/class-avatar.jpg" alt=""><span class="row_title">Classe 76</span> </th>
                                                 <td colspan="2"></td>
-                                                <td>16 Feb 2021</td>
-                                                <td>20%</td> 
-                                                <td> <span class="badge text-bg-success">Done</span>
+                                                <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td> 
+                                                <td class="text-center"> <span class="badge text-bg-success">Done</span>
                                                 </td> 
                                                 <td class="text-center"><button class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
                                                 <button class="btn btn-outline-secondary" ><i class="fa-sharp fa-solid fa-trash"></i></button></td>
@@ -197,9 +201,9 @@
 
                                                 <th scope="row"><img class="class-avatar-img" src="img/class-avatar.jpg" alt=""><span class="row_title">Classe 77</span> </th>
                                                 <td colspan="2"></td>
-                                                <td>17 Feb 2021</td>
-                                                <td>20%</td> 
-                                                <td> <span class="badge text-bg-success">Done</span>
+                                                <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td> 
+                                                <td class="text-center"> <span class="badge bg-warning text-white">process</span>
                                                 </td> 
                                                 <td class="text-center"><button class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
                                                 <button class="btn btn-outline-secondary" ><i class="fa-sharp fa-solid fa-trash"></i></button></td>
@@ -211,9 +215,9 @@
 
                                                 <th scope="row"><img class="class-avatar-img" src="img/class-avatar.jpg" alt=""><span class="row_title">Classe 78</span> </th>
                                                 <td colspan="2"></td>
-                                                <td>18 Feb 2021</td>
-                                                <td>20%</td> 
-                                                <td> <span class="badge text-bg-success">Done</span>
+                                                <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td> 
+                                                <td class="text-center"> <span class="badge text-bg-success">Done</span>
                                                 </td> 
                                                 <td class="text-center"><button class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
                                                 <button class="btn btn-outline-secondary" ><i class="fa-sharp fa-solid fa-trash"></i></button></td>
@@ -225,9 +229,9 @@
 
                                                 <th scope="row"><img class="class-avatar-img" src="img/class-avatar.jpg" alt=""><span class="row_title">Classe 79</span> </th>
                                                 <td colspan="2"></td>
-                                                <td>19 Feb 2021</td>
-                                                <td>20%</td> 
-                                                <td> <span class="badge text-bg-success">Done</span>
+                                                <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td> 
+                                                <td class="text-center"> <span class="badge bg-danger">failed</span>
                                                 </td> 
                                                 <td class="text-center"><button class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
                                                 <button class="btn btn-outline-secondary" ><i class="fa-sharp fa-solid fa-trash"></i></button></td>
@@ -239,9 +243,9 @@
 
                                                 <th scope="row"><img class="class-avatar-img" src="img/class-avatar.jpg" alt=""><span class="row_title">Classe 80</span> </th>
                                                 <td colspan="2"></td>
-                                                <td>20 Feb 2021</td>
-                                                <td>20%</td> 
-                                                <td> <span class="badge text-bg-success">Done</span>
+                                                <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td> 
+                                                <td class="text-center"> <span class="badge text-bg-success">Done</span>
                                                 </td> 
                                                 <td class="text-center"><button class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
                                                 <button class="btn btn-outline-secondary" ><i class="fa-sharp fa-solid fa-trash"></i></button></td>
@@ -253,9 +257,9 @@
 
                                                 <th scope="row"><img class="class-avatar-img" src="img/class-avatar.jpg" alt=""><span class="row_title">Classe 81</span> </th>
                                                 <td colspan="2"></td>
-                                                <td>21 Feb 2021</td>
-                                                <td>20%</td> 
-                                                <td> <span class="badge text-bg-success">Done</span>
+                                                <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td> 
+                                                <td class="text-center"> <span class="badge bg-danger">failed</span>
                                                 </td> 
                                                 <td class="text-center"><button class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
                                                 <button class="btn btn-outline-secondary" ><i class="fa-sharp fa-solid fa-trash"></i></button></td>
@@ -267,9 +271,9 @@
 
                                                 <th scope="row"><img class="class-avatar-img" src="img/class-avatar.jpg" alt=""><span class="row_title">Classe 82</span> </th>
                                                 <td colspan="2"></td>   
-                                                <td>2 Feb 2021</td>
-                                                <td>20%</td> 
-                                                <td> <span class="badge text-bg-success">Done</span>
+                                                <td class="d-none d-md-table-cell">2 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell">20%</td> 
+                                                <td class="text-center" > <span class="badge text-bg-success">Done</span>
                                                 </td> 
                                                 <td class="text-center"><button class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
                                                 <button class="btn btn-outline-secondary" ><i class="fa-sharp fa-solid fa-trash"></i></button></td>
@@ -384,20 +388,7 @@
                                       </ul>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                  </p>
+                                    </p>
                                   
                                 </div>
 
@@ -410,20 +401,20 @@
                         <div class="col-12 d-flex pt-4 data">
 
                             <div class="card">
-
-                                
+                                <img src="img/stats.jpeg" class="card-img-top" alt="">
                                 <div class="card-body">
-                                  
-                                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti veritatis at consequuntur nesciunt error temporibus consectetur, numquam dolorem sed, ducimus voluptatem eligendi mollitia libero quos expedita? Dicta assumenda quos iste.
-
-                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quisquam sit maiores assumenda similique ratione architecto facilis. Cupiditate, nisi. Sint quis illum exercitationem consequuntur impedit culpa aliquam quisquam consequatur nesciunt.
-
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus porro ullam at similique culpa ratione sit sed expedita dicta iusto natus eligendi, doloremque enim saepe quam reprehenderit vitae ad earum!
-                                  
+                                  <h5 class="card-title">Utenti attivi</h5>
+                                  <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
                                 </div>
-                                 
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Gennaio: 1200</li>
+                                  <li class="list-group-item">Febbraio: 800</li>
+                                  <li class="list-group-item">Marzo: 1500</li>
+                                </ul>
+
+                                <div class="card-body">
+                                    <a href="#" class="card-link">Visualizza report approfondito    </a>
+                                </div>
 
                             </div>
 
